@@ -13,7 +13,7 @@
 
 ---
 
-# 1. Objective
+## 1. Objective
 
 Mục tiêu của bài kiểm thử:
 
@@ -33,7 +33,7 @@ Mục tiêu của bài kiểm thử:
 
 ---
 
-# 2. APIs Used
+## 2. APIs Used
 
 ## 2.1 JSONPlaceholder API
 
@@ -59,7 +59,7 @@ Dùng để thực hành GET API với query parameters.
 
 ---
 
-# 3. Environment Configuration
+## 3. Environment Configuration
 
 ## Environment Variable
 
@@ -69,7 +69,7 @@ Dùng để thực hành GET API với query parameters.
 
 ---
 
-# 4. Setup Process
+## 4. Setup Process
 
 ## 4.1 Create Collection
 
@@ -121,7 +121,7 @@ Environment được gắn vào workspace để sử dụng biến `{{baseUrl}}`
 
 ---
 
-# 5. Test Cases
+## 5. Test Cases
 
 | TC ID | Test Case       | Method | Endpoint          | Expected Result        | Actual Result | Status |
 | ----- | --------------- | ------ | ----------------- | ---------------------- | ------------- | ------ |
@@ -134,11 +134,11 @@ Environment được gắn vào workspace để sử dụng biến `{{baseUrl}}`
 
 ---
 
-# 6. API Requests
+## 6. API Requests
 
 ---
 
-# 6.1 GET Request
+### 6.1 GET Request
 
 ## Endpoint
 
@@ -165,7 +165,7 @@ pm.test("Status code is 200", function () {
 
 ---
 
-# 6.2 POST Request
+### 6.2 POST Request
 
 ## Endpoint
 
@@ -202,7 +202,7 @@ pm.test("Status code is 201", function () {
 
 ---
 
-# 6.3 PUT Request
+### 6.3 PUT Request
 
 ## Endpoint
 
@@ -240,7 +240,7 @@ pm.test("PUT success", function () {
 
 ---
 
-# 6.4 DELETE Request
+### 6.4 DELETE Request
 
 ## Endpoint
 
@@ -267,7 +267,7 @@ pm.test("DELETE success", function () {
 
 ---
 
-# 6.5 GET Huge ID Testing
+### 6.5 GET Huge ID Testing
 
 ## Endpoint
 
@@ -310,7 +310,7 @@ pm.test("API should not crash", function () {
 
 ---
 
-# 6.6 GET Negative ID Testing
+### 6.6 GET Negative ID Testing
 
 ## Endpoint
 
@@ -333,7 +333,7 @@ Kiểm thử API với ID âm.
 
 ---
 
-# 7. Weather API Testing
+## 7. Weather API Testing
 
 ## Endpoint
 
@@ -365,7 +365,7 @@ http://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=Hanoi
 
 ---
 
-# 8. Full Collection Run
+## 8. Full Collection Run
 
 Toàn bộ collection được chạy bằng Collection Runner.
 
@@ -381,7 +381,7 @@ Toàn bộ collection được chạy bằng Collection Runner.
 
 ---
 
-# 9. Collection Runner Result
+## 9. Collection Runner Result
 
 ### Screenshot
 
@@ -389,7 +389,7 @@ Toàn bộ collection được chạy bằng Collection Runner.
 
 ---
 
-# 10. Performance Summary
+## 10. Performance Summary
 
 | Request          | Response Time |
 | ---------------- | ------------- |
@@ -402,7 +402,7 @@ Toàn bộ collection được chạy bằng Collection Runner.
 
 ---
 
-# 11. Findings
+## 11. Findings
 
 ## Positive Findings
 
@@ -415,7 +415,7 @@ Toàn bộ collection được chạy bằng Collection Runner.
 
 ---
 
-# 12. Conclusion
+## 12. Conclusion
 
 Bài kiểm thử xác nhận rằng:
 
